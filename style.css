@@ -1,0 +1,76 @@
+body {
+    background-image: url('background.jpg');
+    background-size: 200px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    color: #fff;
+}
+
+.slogan {
+    font-size: 4em;
+    text-shadow: 10px 10px 5px #000;
+}
+
+.shakira-main {
+    height: 300px;
+}
+
+.abstract {
+    display: inline-block;
+    width: 300px;
+    background-color: #fd82d2;
+    padding: 15px;
+}
+
+.predictions {
+    display: inline-block;
+    font-size: 2em;
+    background-color: #fd82d2;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.action {
+    background-color: #f00;
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', cursive;
+    cursor: pointer;
+}
+
+.big-text {
+    font-size:3em;
+    background-color: #fd82d2;
+    color:#fff;
+    display: inline-block;
+}
+
+.shakira-result {
+    display: inline-block;
+    position: relative;
+}
+
+.shakira-result img {
+    height: 500px;
+}
+
+.shakira-result p {
+    position: absolute;
+    top: 60px;
+    left: 320px;
+    font-size: 1.7em;
+    font-weight: bold;
+    font-family: monospace;
+    animation: result-glow 1s infinite alternate;
+}
+
+@keyframes result-glow {
+    from { text-shadow: 0 0 0 #0c0, 0 0 0 #0c0, 0 0 0 #0c0, 0 0 0 #0c0, 0 0 0 #0c0;}
+    to { text-shadow: 0 0 25px #0c0, 0 0 25px #0c0, 0 0 25px #0c0, 0 0 25px #0c0, 0 0 25px #0c0;}
+}
+
+dialog {
+    background-color: #f00;
+    color: #fff;
+}
